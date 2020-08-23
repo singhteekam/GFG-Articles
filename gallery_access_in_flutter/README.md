@@ -1,8 +1,8 @@
 # gallery_access_in_flutter
-
+# Gallery access in flutter
 A new Flutter project.
 
-## Getting Started
+## Getting Started  
 
 This project is a starting point for a Flutter application.
 
