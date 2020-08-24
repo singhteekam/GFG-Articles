@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Text("$i",textScaleFactor: 3,)
         ],),
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: FloatingActionButton(
         // isExtended: true,
         child: Icon(Icons.add),

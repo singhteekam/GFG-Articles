@@ -26,16 +26,17 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-  String inkwell="";
+  String inkwell='';
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("InkWell Widget"),
+        title: Text('InkWell Widget'),
+        backgroundColor: Colors.green,
         actions: <Widget>[
           Text(
-            "GFG",
+            'GFG',
             textScaleFactor: 3,
           )
         ],
@@ -48,12 +49,12 @@ class _MyHomePageState extends State<MyHomePage> {
             InkWell(
               onTap: () {
                 setState(() {
-                  inkwell="Inkwell Tapped";
+                  inkwell='Inkwell Tapped';
                 });
               },
               onLongPress: () {
                 setState(() {
-                  inkwell="InkWell Long Pressed";
+                  inkwell='InkWell Long Pressed';
                 });
               },
               child: Container(
@@ -62,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   height: 70,
                   child: Center(
                       child: Text(
-                    "Inkwell",
+                    'Inkwell',
                     textScaleFactor: 2,
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ))),
